@@ -1,16 +1,27 @@
 # zervician
 
-A new Flutter project.
+# Flutter Authentication App
 
-## Getting Started
+# Overview
 
-This project is a starting point for a Flutter application.
+A Flutter app demonstrating Splash Screen, Login Screen, Home Screen with user info, and Logout functionality using BloC for state management.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Splash screen with animated logo.
+Login screen with validation and error handling.
+Home screen showing user info with logout.
+State managed using with BloC.
+Responsive Material Design UI.
+
+# Test Credentials
+
+Username: "admin", Password: "password123"
+Username: "user", Password: "user123"
+
+# Dependencies Used
+
+flutter_bloc: State management
+shared_preferences: to store session
+
